@@ -1,0 +1,86 @@
+[
+    {
+        "text": "Introduction to TDS\nWelcome to Tools in Data Science. This course covers Python, Pandas, NumPy, and more. Make sure to install Anaconda.",
+        "metadata": {
+            "source_type": "course_content",
+            "source_file": "tds_intro.txt",
+            "chunk_id": 0
+        }
+    },
+    {
+        "text": "Pandas Basics\nPandas is a powerful library for data manipulation. Key objects are DataFrame and Series. You can filter DataFrames using boolean indexing: `df[df['column'] > value]`.",
+        "metadata": {
+            "source_type": "course_content",
+            "source_file": "tds_pandas_basics.txt",
+            "chunk_id": 0
+        }
+    },
+    {
+        "text": "Week 1 Notes: Data Structures\nRemember to install Anaconda and Jupyter notebooks for the first week's assignments. We'll cover Lists, Tuples, Dictionaries, and Sets in Python. Pay special attention to their immutability properties.",
+        "metadata": {
+            "source_type": "course_content",
+            "source_file": "tds_week1_notes.txt",
+            "chunk_id": 0
+        }
+    },
+    {
+        "text": "I'm stuck on GA1 Q5 regarding Pandas DataFrame manipulation. How do I filter rows based on multiple conditions efficiently?",
+        "metadata": {
+            "source_type": "discourse_post",
+            "topic_id": 155001,
+            "post_id": 15500101,
+            "topic_title": "GA1 Question 5 Clarification",
+            "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-question-5-clarification/155001/1",
+            "username": "student_alpha",
+            "created_at": "2025-01-15"
+        }
+    },
+    {
+        "text": "You can use boolean indexing with the `&` operator for multiple conditions. Example: `df[(df['col1'] > 10) & (df['col2'] == 'value')]`. Make sure to wrap each condition in parentheses.",
+        "metadata": {
+            "source_type": "discourse_post",
+            "topic_id": 155001,
+            "post_id": 15500102,
+            "topic_title": "GA1 Question 5 Clarification",
+            "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-question-5-clarification/155001/2",
+            "username": "ta_beta",
+            "created_at": "2025-01-16"
+        }
+    },
+    {
+        "text": "Should I use gpt-4o-mini which AI proxy supports, or gpt3.5 turbo for GA5 Question 8? I'm confused about which model is allowed.",
+        "metadata": {
+            "source_type": "discourse_post",
+            "topic_id": 155939,
+            "post_id": 15593901,
+            "topic_title": "GA5 Question 8 Clarification (OpenAI Model)",
+            "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939/1",
+            "username": "student_charlie",
+            "created_at": "2025-04-10"
+        }
+    },
+    {
+        "text": "You must use `gpt-3.5-turbo-0125`, even if the AI Proxy only supports `gpt-4o-mini`. Use the OpenAI API directly for this question. My understanding is that you just have to use a tokenizer, similar to what Prof. Anand used, to get the number of tokens and multiply that by the given rate.",
+        "metadata": {
+            "source_type": "discourse_post",
+            "topic_id": 155939,
+            "post_id": 15593902,
+            "topic_title": "GA5 Question 8 Clarification (OpenAI Model)",
+            "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939/3",
+            "username": "ta_delta",
+            "created_at": "2025-04-11"
+        }
+    },
+    {
+        "text": "Just to confirm, we should use the model that\u2019s mentioned in the question, right? So, `gpt-3.5-turbo-0125` is the official model.",
+        "metadata": {
+            "source_type": "discourse_post",
+            "topic_id": 155939,
+            "post_id": 15593903,
+            "topic_title": "GA5 Question 8 Clarification (OpenAI Model)",
+            "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939/4",
+            "username": "student_echo",
+            "created_at": "2025-04-12"
+        }
+    }
+]
