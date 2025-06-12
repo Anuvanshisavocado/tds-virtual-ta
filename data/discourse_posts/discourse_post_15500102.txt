@@ -1,0 +1,1 @@
+You can use boolean indexing with the `&` operator for multiple conditions. Example: `df[(df['col1'] > 10) & (df['col2'] == 'value')]`. Make sure to wrap each condition in parentheses.

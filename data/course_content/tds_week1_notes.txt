@@ -1,0 +1,2 @@
+Week 1 Notes: Data Structures
+Remember to install Anaconda and Jupyter notebooks for the first week's assignments. We'll cover Lists, Tuples, Dictionaries, and Sets in Python. Pay special attention to their immutability properties.

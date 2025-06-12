@@ -1,0 +1,1 @@
+I'm stuck on GA1 Q5 regarding Pandas DataFrame manipulation. How do I filter rows based on multiple conditions efficiently?

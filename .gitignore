@@ -1,0 +1,23 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+Python*/
+python*/
+
+# Virtual Environment directory
+venv/
+.venv/
+
+# Environment variables file (contains API keys)
+.env
+
+# FAISS index and associated documents (can be large, rebuilt on deploy)
+faiss_index.bin
+documents_with_metadata.json
+
+# Logs (if your app generates any)
+*.log
+logs/

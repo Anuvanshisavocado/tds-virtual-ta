@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+requests
+beautifulsoup4
+sentence-transformers
+faiss-cpu
+openai
+python-dotenv
+Pillow
+pytesseract

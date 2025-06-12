@@ -1,0 +1,1 @@
+Should I use gpt-4o-mini which AI proxy supports, or gpt3.5 turbo for GA5 Question 8? I'm confused about which model is allowed.

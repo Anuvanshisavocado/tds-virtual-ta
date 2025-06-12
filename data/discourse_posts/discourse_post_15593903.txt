@@ -1,0 +1,1 @@
+Just to confirm, we should use the model that’s mentioned in the question, right? So, `gpt-3.5-turbo-0125` is the official model.
